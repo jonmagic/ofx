@@ -14,6 +14,7 @@ require "ofx/balance"
 require "ofx/account"
 require "ofx/transaction"
 require "ofx/version"
+require "foo"
 
 def OFX(resource, &block)
   parser = OFX::Parser::Base.new(resource).parser
